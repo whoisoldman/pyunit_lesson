@@ -1,3 +1,5 @@
+# --- PYTHON & VS CODE -----------------------------------
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -11,31 +13,83 @@ __pycache__/
 venv/
 env/
 
-# VSCode
+# VSCode settings
 .vscode/
 !.vscode/settings.json
 !.vscode/launch.json
 !.vscode/tasks.json
+*.code-workspace
 
-# Pytest / Coverage
+# Testing / Coverage / Logs
 .pytest_cache/
 .coverage
 htmlcov/
-
-# Logs
 *.log
 
-# Test and temp results
-*.tmp
-*.swp
-
-# Jupyter / IPython
-.ipynb_checkpoints/
-
-# OS files
+# OS-specific
 .DS_Store
 Thumbs.db
 
-# Task files or folders (у тебя был zzz)
+# Task & Temp files
 zzz/
 PyUnit_Task.txt
+*.tmp
+*.swp
+
+# IPython / Jupyter
+.ipynb_checkpoints/
+
+
+# --- VISUAL STUDIO --------------------------------------
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+
+# Visual Studio folders
+.vs/
+Generated\ Files/
+
+# Test Results
+[Tt]est[Rr]esult*/
+*.VisualState.xml
+TestResult.xml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Others
+*.cache
+*.dbmdl
+*.publishsettings
+*.pfx
+*.vspscc
+*.vssscc
+
+# Rider
+*.sln.iml
+
+# Optional: remove if not needed
+node_modules/
+.history/
+publish/
+ClientBin/
