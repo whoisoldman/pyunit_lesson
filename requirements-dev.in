@@ -1,2 +1,6 @@
 -c requirements.txt
+pytest
+parameterized
 ruff
+coverage
+pytest-cov
