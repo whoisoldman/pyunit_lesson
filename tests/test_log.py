@@ -1,8 +1,11 @@
 import math
+
 import pytest
 from parameterized import parameterized
-from app.main import log, Calculator
+
 from app.error import InvalidInputException
+from app.main import log
+
 
 @pytest.fixture
 def default_base():

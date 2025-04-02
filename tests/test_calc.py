@@ -1,8 +1,11 @@
 import math
 import unittest
-from parameterized import parameterized
-from app.main import Calculator
 from math import inf
+
+from parameterized import parameterized
+
+from app.main import Calculator
+
 
 class TestCalculator(unittest.TestCase):
     def setUp(self):

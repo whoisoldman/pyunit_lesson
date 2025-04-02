@@ -1,6 +1,7 @@
-from typing import Union
-import math
 import builtins
+import math
+from typing import Union
+
 from app.error import InvalidInputException
 
 numeric = Union[int, float]
